@@ -23,7 +23,7 @@
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.15.1",
     "nuxt": "^2.15.7",
-    "sass": "^1.43.5"
+    "sass": "^1.44.0"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.16.3",
