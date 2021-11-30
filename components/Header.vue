@@ -1,0 +1,173 @@
+<template>
+  <header :class="{ expanded }">
+    <!-- Presentation elements (only expanded) -->
+    <div class="presentation" role="presentation">
+      <div class="headerBackdrop" role="presentation" />
+      <transition name="fade">
+        <img class="headerBackdropLogo" src="~/assets/images/stag-transparent.png" role='presentation' draggable='false' v-if="expanded" />
+      </transition>
+    </div>
+
+    <!-- Root navigational elements -->
+    <nav>
+      <a href="/">
+        <img class="logo" role="presentation" draggable="false" src="/images/logo_grouped.png" alt="Surrey CompSoc logo">
+      </a>
+      <div class="links">
+        <nuxt-link to="/">Home</nuxt-link>
+        <nuxt-link to="/committee">Committee</nuxt-link>
+        <nuxt-link to="/events">Events</nuxt-link>
+      </div>
+    </nav>
+
+    <!-- Header text elements (only expanded) -->
+    <transition name="fade">
+      <div class="header-text" v-if="expanded">
+        <h2>Welcome to Surrey CompSoc!</h2>
+        <p>
+          We&lsquo;re the university of Surrey’s official Computer Science society.<br>
+          We organize and host academic, professional and social events.
+        </p>
+      </div>
+    </transition>
+  </header>
+</template>
+
+<script lang='ts'>
+import Vue from 'vue';
+
+export default Vue.extend({
+  props: {
+    expanded: {
+      type: Boolean,
+      default: false
+    }
+  }
+});
+</script>
+
+<style lang='scss'>
+$headerHeight: 90px;
+$expandedHeaderHeight: 400px;
+$arrowStart: 85%;
+
+header {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.1));
+  height: $expandedHeaderHeight;
+  transition: height .2s ease-out, background .2s ease-out;
+
+  &:not(.expanded) {
+    height: $headerHeight;
+    background: linear-gradient(27.73deg, #8572D6 29.47%, #27D7A9 100%);
+  }
+
+  .presentation {
+    pointer-events: none;
+    user-select: none !important;
+
+    .headerBackdrop {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      top: 0;
+
+      width: 100vw;
+      height: $expandedHeaderHeight;
+      z-index: -1;
+      background: linear-gradient(27.73deg, #8572D6 29.47%, #27D7A9 100%);
+      transition: height 0.2s ease-out;
+      clip-path: polygon(0 0, 100% 0, 100% $arrowStart, 50% 100%, 50% 100%, 0 $arrowStart);
+    }
+
+    .headerBackdropLogo {
+      position: absolute;
+      pointer-events: none;
+      max-width: 285px;
+      max-height: 80%;
+      left: 0;
+      right: 0;
+      bottom: 20px;
+      margin: 0 auto;
+    }
+  }
+  &:not(.expanded) .headerBackdrop {
+    height: $headerHeight;
+    opacity: 0;
+  }
+
+  nav {
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      display: block;
+      height: 50px;
+      user-select: none !important;
+    }
+
+    .links {
+      display: flex;
+      gap: 0 40px;
+      font-weight: bold;
+      color: white;
+      user-select: none !important;
+
+      a {
+        position: relative;
+
+        &::after {
+          content: "";
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          display: inline-block;
+          height: 2px;
+          width: 0;
+          background: white;
+          border-radius: 100px;
+
+          transition: width .2s ease-out;
+        }
+
+        &:hover::after {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .header-text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: $headerHeight;
+    height: #{math.round(math.div($arrowStart, 100%) * ($expandedHeaderHeight)) - $headerHeight};
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+      font-size: 2rem;
+      font-weight: bold;
+      color: white;
+      text-align: center;
+    }
+
+    p {
+      font-weight: bold;
+      color: white;
+      text-align: center;
+    }
+  }
+}
+</style>
