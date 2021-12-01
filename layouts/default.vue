@@ -16,7 +16,7 @@ export default Vue.extend({
   },
   computed: {
     useExpandedHeader () {
-      return this.$route.fullPath === '/';
+      return this.$route?.fullPath === '/';
     }
   }
 });
