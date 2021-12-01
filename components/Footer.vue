@@ -21,6 +21,7 @@
           <a href="https://www.facebook.com/ComputingSoc" target="_blank"><i class="im im-facebook" /></a>
           <a href="https://twitter.com/surreycompsoc" target="_blank"><i class="im im-twitter" /></a>
           <a href="https://instagram.com/surreycompsoc" target="_blank"><i class="im im-instagram" /></a>
+          <a href="https://twitch.tv/surreycompsoc" target="_blank"><i class="im im-twitch" /></a>
           <a href="https://github.com/surreycompsoc" target="_blank"><i class="im im-github" /></a>
         </p>
         <div class="vspace" />
