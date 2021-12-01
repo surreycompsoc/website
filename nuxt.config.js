@@ -8,8 +8,22 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { hid: 'description', name: 'description', content: 'The official Computer Science departmental society for the University of Surrey and the University of Surrey Students\' Union.' },
+      { name: 'format-detection', content: 'telephone=no' },
+
+      { name: 'robots', content: 'index, follow' },
+      { name: 'og:type', content: 'website' },
+      { name: 'og:title', content: 'CompSoc – University of Surrey' },
+      { name: 'og:url', content: 'https://surreycompsoc.org/' },
+      { name: 'og:image', content: "https://surreycompsoc.org/opengraph.png" },
+      { name: 'og:description', content: "The official Computer Science departmental society for the University of Surrey and the University of Surrey Students' Union." },
+
+      { name: 'twitter:card', content: 'summary' },
+      { name: 'twitter:title', content: 'CompSoc – University of Surrey' },
+      { name: 'twitter:site', content: '@surreycompsoc' },
+      { name: 'twitter:description', content: "The official Computer Science departmental society for the University of Surrey and the University of Surrey Students' Union." },
+      { name: 'twitter:image', content: "https://surreycompsoc.org/icon.png" },
+      { name: 'twitter:image:alt', content: "Surrey CompSoc Logo" },
     ],
     link: [
       { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' },
