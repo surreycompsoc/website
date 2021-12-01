@@ -48,9 +48,21 @@ footer {
     justify-content: space-between;
     min-height: 280px;
 
-    .content-column { @apply flex flex-col; }
-    .content-column.right { text-align: right; }
-  ;
+    .content-column { @apply flex flex-col text-center; }
+
+    padding: 40px 20px;
+
+    @apply flex-col;
+    gap: 30px;
+
+    @media (min-width: 700px) {
+      @apply flex-row;
+      padding: 40px 60px;
+      gap: 0;
+
+      .content-column { @apply text-left; }
+      .content-column.right { @apply text-right; }
+    }
 
     h4 {
       margin: 0;
