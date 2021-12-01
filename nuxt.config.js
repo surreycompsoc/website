@@ -76,7 +76,9 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      lang: 'en'
+      lang: 'en',
+      name: 'CompSoc',
+      description: 'The official Computer Science departmental society for the University of Surrey and the University of Surrey Students\' Union.',
     }
   },
 
