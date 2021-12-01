@@ -1,7 +1,8 @@
 <template>
-  <div>
+  <div id="root">
     <Header :expanded='useExpandedHeader' />
     <Nuxt />
+    <Footer />
   </div>
 </template>
 

@@ -3,7 +3,7 @@
   "singleQuote": true,
   "overrides": [
     {
-      "files": ["**/*.css", "**/*.scss", "**/*.html"],
+      "files": ["**/*.css", "**/*.scss", "**/*.html", "**/*.vue"],
       "options": {
         "singleQuote": false
       }

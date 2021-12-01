@@ -1,36 +1,39 @@
 <template>
-  <header :class="{ expanded }">
-    <!-- Presentation elements (only expanded) -->
-    <div class="presentation" role="presentation">
-      <div class="headerBackdrop" role="presentation" />
+  <div>
+    <header id="appHeader" :class="{ expanded }">
+      <!-- Presentation elements (only expanded) -->
+      <div class="presentation" role="presentation">
+        <div class="headerBackdrop" role="presentation" />
+        <transition name="fade">
+          <img class="headerBackdropLogo" src="~/assets/images/stag-transparent.png" role='presentation' draggable='false' v-if="expanded" />
+        </transition>
+      </div>
+
+      <!-- Root navigational elements -->
+      <nav>
+        <a href="/">
+          <img class="logo" role="presentation" draggable="false" src="/images/logo_grouped.png" alt="Surrey CompSoc logo">
+        </a>
+        <div class="links">
+<!--          <nuxt-link to="/">Home</nuxt-link>-->
+<!--          <nuxt-link to="/committee">Committee</nuxt-link>-->
+<!--          <nuxt-link to="/events">Events</nuxt-link>-->
+        </div>
+      </nav>
+
+      <!-- Header text elements (only expanded) -->
       <transition name="fade">
-        <img class="headerBackdropLogo" src="~/assets/images/stag-transparent.png" role='presentation' draggable='false' v-if="expanded" />
+        <div class="header-text" v-if="expanded">
+          <h2>Welcome to Surrey CompSoc!</h2>
+          <p>
+            We&lsquo;re the University of Surrey’s official Computer Science society.<br>
+            We organize and host academic, professional and social events.
+          </p>
+        </div>
       </transition>
-    </div>
-
-    <!-- Root navigational elements -->
-    <nav>
-      <a href="/">
-        <img class="logo" role="presentation" draggable="false" src="/images/logo_grouped.png" alt="Surrey CompSoc logo">
-      </a>
-      <div class="links">
-        <nuxt-link to="/">Home</nuxt-link>
-        <nuxt-link to="/committee">Committee</nuxt-link>
-        <nuxt-link to="/events">Events</nuxt-link>
-      </div>
-    </nav>
-
-    <!-- Header text elements (only expanded) -->
-    <transition name="fade">
-      <div class="header-text" v-if="expanded">
-        <h2>Welcome to Surrey CompSoc!</h2>
-        <p>
-          We&lsquo;re the university of Surrey’s official Computer Science society.<br>
-          We organize and host academic, professional and social events.
-        </p>
-      </div>
-    </transition>
-  </header>
+    </header>
+    <div class="header-spacer" />
+  </div>
 </template>
 
 <script lang='ts'>
@@ -50,14 +53,17 @@ export default Vue.extend({
 $headerHeight: 90px;
 $expandedHeaderHeight: 400px;
 $arrowStart: 85%;
+$headerTransition: .2s ease-out;
 
-header {
+header#appHeader {
+  z-index: 99999;
   width: 100%;
   overflow: hidden;
-  position: relative;
+  position: absolute;
+  top: 0;
   filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.1));
   height: $expandedHeaderHeight;
-  transition: height .2s ease-out, background .2s ease-out;
+  transition: height $headerTransition, background $headerTransition;
 
   &:not(.expanded) {
     height: $headerHeight;
@@ -79,7 +85,7 @@ header {
       height: $expandedHeaderHeight;
       z-index: -1;
       background: linear-gradient(27.73deg, #8572D6 29.47%, #27D7A9 100%);
-      transition: height 0.2s ease-out;
+      transition: height $headerTransition;
       clip-path: polygon(0 0, 100% 0, 100% $arrowStart, 50% 100%, 50% 100%, 0 $arrowStart);
     }
 
@@ -134,7 +140,7 @@ header {
           background: white;
           border-radius: 100px;
 
-          transition: width .2s ease-out;
+          transition: width $headerTransition;
         }
 
         &:hover::after {
@@ -150,6 +156,8 @@ header {
     right: 0;
     top: $headerHeight;
     height: #{math.round(math.div($arrowStart, 100%) * ($expandedHeaderHeight)) - $headerHeight};
+
+    padding: 0 40px;
 
     display: flex;
     flex-direction: column;
@@ -169,5 +177,15 @@ header {
       text-align: center;
     }
   }
+}
+
+#appHeader + .header-spacer {
+  display: block;
+  height: $headerHeight;
+  transition: height $headerTransition;
+}
+
+#appHeader.expanded + .header-spacer {
+  height: $expandedHeaderHeight;
 }
 </style>
