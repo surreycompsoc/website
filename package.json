@@ -51,9 +51,9 @@
     "lint-staged": "^12.1.2",
     "nuxt-windicss": "^2.0.12",
     "prettier": "^2.3.2",
-    "stylelint": "^13.13.1",
+    "stylelint": "^14.1.0",
     "stylelint-config-prettier": "^8.0.2",
-    "stylelint-config-standard": "^22.0.0",
+    "stylelint-config-standard": "^24.0.0",
     "ts-jest": "^27.0.7",
     "vue-jest": "^3.0.7"
   }
