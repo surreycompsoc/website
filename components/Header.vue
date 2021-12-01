@@ -5,7 +5,7 @@
       <div class="presentation" role="presentation">
         <div class="headerBackdrop" role="presentation" />
         <transition name="fade">
-          <img class="headerBackdropLogo" src="~/assets/images/stag-transparent.png" role='presentation' draggable='false' v-if="expanded" />
+          <img v-if="expanded" class="headerBackdropLogo" src="~/assets/images/stag-transparent.png" alt="" role='presentation' draggable='false' />
         </transition>
       </div>
 
@@ -23,7 +23,7 @@
 
       <!-- Header text elements (only expanded) -->
       <transition name="fade">
-        <div class="header-text" v-if="expanded">
+        <div v-if="expanded" class="header-text">
           <h2>Welcome to Surrey CompSoc!</h2>
           <p>
             We&lsquo;re the University of Surrey’s official Computer Science society.<br>

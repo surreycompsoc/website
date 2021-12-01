@@ -5,7 +5,7 @@
       <p>{{ error.message || "An unexpected error occurred" }}.</p>
       <LinkButton class="mt-4" to="/">
         Return Home
-        <template v-slot:suffix><GlyphIcon of="arrow_continue" /></template>
+        <template #suffix><GlyphIcon of="arrow_continue" /></template>
       </LinkButton>
     </div>
   </div>
