@@ -1,6 +1,7 @@
 {
-  "name": "surrey-compsoc-website",
+  "name": "CompSoc",
   "short_name": "surrey-compsoc-website",
+  "description": "The official Computer Science departmental society for the University of Surrey and the University of Surrey Students' Union.",
   "icons": [
     {
       "src": "/_nuxt/icons/icon_64x64.fe7188.png",
