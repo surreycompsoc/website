@@ -14,7 +14,7 @@
     </div>
 
     <div class="center-mount">
-      <LinkButton extended type="external" to="https://www.ussu.co.uk/_layouts/authenticate.aspx?source=https://www.ussu.co.uk/activity/Pages/GetMemberships.aspx">
+      <LinkButton extended type="external" to="https://my.ussu.co.uk/_layouts/authenticate.aspx?source=https://my.ussu.co.uk/activity/Pages/GetMemberships.aspx">
         Join Us!
         <template #suffix><GlyphIcon of="arrow_continue" /></template>
       </LinkButton>
