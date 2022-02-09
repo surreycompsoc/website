@@ -1,0 +1,9 @@
+A = Σ(ascii(lower(morse(n,p)))
+A%234-A%566-A%500-A%344  nnpp p pnp nnn     npnp nnn nnn pnpp
+A%295-A%122-A%218-A%129  npnp pnp pn ppp pppp     nnn pppn p pnp pnp pp npp p
+A%154-A%134-A%191-A%113  pn npnp pp npp     nppp ppn pnp np
+A%278-A%269-A%281-A%266  npnp p pnp p pn pnpp     npn pp pnpp pnpp p pnp
+A%254-A%103-A%220-A%283  pnpp nnn pnp npp     np pp npn nnn np
+-> 5x codes for scarab
+
+Σ(ascii(lower(67 79 77 80 83 79 67)))%Σ(access_codes) -> UNDERGROUND ACCESS
