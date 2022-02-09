@@ -6,4 +6,4 @@ A%278-A%269-A%281-A%266  npnp p pnp p pn pnpp     npn pp pnpp pnpp p pnp
 A%254-A%103-A%220-A%283  pnpp nnn pnp npp     np pp npn nnn np
 -> 5x codes for scarab
 
-Σ(ascii(lower(67 79 77 80 83 79 67)))%Σ(access_codes) -> UNDERGROUND ACCESS
+Σ(ascii(lower(0x43 0x4F 0x4D 0x50 0x53 0x4F 0x43)))%Σ(access_codes) -> UNDERGROUND ACCESS
