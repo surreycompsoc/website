@@ -1,9 +1,7 @@
 <template>
   <div id="root">
     <div style="float: left; position: fixed; display: block; object-position: bottom; margin: 10px; bottom: 0; ">
-      <a href="https://discord.gg/BypMWcnuY7" target="_blank">
-        <img class="discordOverlay" src="https://img.icons8.com/ios-filled/1000/000000/discord.png" />
-      </a>
+      <img class="discordOverlay" src="https://img.icons8.com/ios-filled/1000/000000/discord.png" />
     </div>
 
 
@@ -12,27 +10,8 @@
     <Footer />
   </div>
 </template>
-
-
-<style>
-.discordOverlay{
-  box-shadow:2px 2px 5px ;
-  background-color:#7289da;
-  padding:10px;
-  border-radius: 50px;
-  width: 60px;
-  height: 60px;
-  margin: 10px;
-  object-fit: contain;
-  object-position: bottom;
-}
-
-.discordOverlay:hover{
-  cursor: pointer;
-  transform: scale(1.1);
-  transition: 0.3579s;
-}
-</style>
+<script lang="ts">
+</script>
 
 <script lang='ts'>
 import Vue from 'vue'

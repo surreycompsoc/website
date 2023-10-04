@@ -28,24 +28,24 @@
       <h2><b>Your Committee!</b></h2>
       <div class="committee-container">
         <div align="center" class="committee">
-          <img src="~/assets/images/Portrait_Placeholder.png" class="commiteeMemberImage">
+          <img src="~/assets/images/alexGodwin_person.jpg" class="commiteeMemberImage">
           <h3>Vice President</h3>
-          <p>Vice President Name</p>
+          <p>Alex Godwin</p>
         </div>
         <br>
         <div align="center" class="committee">
-          <img src="~/assets/images/Portrait_Placeholder.png" class="commiteeMemberImage">
+          <img src="~/assets/images/mia_person.jpg" class="commiteeMemberImage">
           <h3>President</h3>
-          <p>President Name</p>
+          <p>Mia Tran</p>
         </div>
         <br>
         <div align="center" class="committee">
-          <img src="~/assets/images/Portrait_Placeholder.png" class="commiteeMemberImage">
+          <img src="~/assets/images/rup_person.jpg" class="commiteeMemberImage">
           <h3>Treasurer</h3>
-          <p>Treasurer Name</p>
+          <p>Rup Singh</p>
         </div>
       </div>
-      <LinkButton to="committee.vue"  class="appLinkButton" style="color: white">
+      <LinkButton extended to="committee.vue" style="color: white">
         See The Entire Team!
         <template #suffix><GlyphIcon of="arrow_continue" /></template>
       </LinkButton>
@@ -65,10 +65,16 @@
 }
 .commiteeMemberImage{
   border-radius: 50%;
-  width: 25%;
+
+  width: 45%;
+
+
   margin-left: 5%;
   margin-right: 5%;
   align-content: center;
+
+
+  object-fit: contain;
 
   will-change: transform;
 
