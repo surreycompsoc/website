@@ -1,10 +1,12 @@
 <template>
   <main>
-    <div class="content banner">
-      <h2>🚧 Under Construction!</h2>
-      <p>Please bear with us whilst we develop our new site!</p>
-      <p>In the mean time, you can <a href="https://discord.gg/BypMWcnuY7" target="_blank">join our Discord server</a> to get the most up-to-date information.</p>
-    </div>
+<!--    <div class="content banner">-->
+<!--      <h2>🚧 Under Construction!</h2>-->
+<!--      <p>Please bear with us whilst we develop our new site!</p>-->
+<!--      <p>In the mean time, you can <a href="https://discord.gg/BypMWcnuY7" target="_blank">join our Discord server</a> to get the most up-to-date information.</p>-->
+<!--    </div>-->
+
+
 
     <div class="content prose">
       <h2>About Us</h2>
@@ -19,8 +21,68 @@
         <template #suffix><GlyphIcon of="arrow_continue" /></template>
       </LinkButton>
     </div>
+
+    <br>
+
+    <div class="content prose" style="text-align: center; width: 100%; background-color: rgb(239, 239, 239); padding: 10px; border-radius: 10px">
+      <h2><b>Your Committee!</b></h2>
+      <div class="committee-container">
+        <div align="center" class="committee">
+          <img src="~/assets/images/Portrait_Placeholder.png" class="commiteeMemberImage">
+          <h3>Vice President</h3>
+          <p>Vice President Name</p>
+        </div>
+        <br>
+        <div align="center" class="committee">
+          <img src="~/assets/images/Portrait_Placeholder.png" class="commiteeMemberImage">
+          <h3>President</h3>
+          <p>President Name</p>
+        </div>
+        <br>
+        <div align="center" class="committee">
+          <img src="~/assets/images/Portrait_Placeholder.png" class="commiteeMemberImage">
+          <h3>Treasurer</h3>
+          <p>Treasurer Name</p>
+        </div>
+      </div>
+      <LinkButton to="committee.vue"  class="appLinkButton" style="color: white">
+        See The Entire Team!
+        <template #suffix><GlyphIcon of="arrow_continue" /></template>
+      </LinkButton>
+    </div>
   </main>
 </template>
+
+<style>
+.committee-container {
+  display: flex;
+}
+
+@media (max-width: 500px) {
+  .committee-container {
+    flex-direction: column;
+  }
+}
+.commiteeMemberImage{
+  border-radius: 50%;
+  width: 25%;
+  margin-left: 5%;
+  margin-right: 5%;
+  align-content: center;
+
+  will-change: transform;
+
+  padding: 4px;
+}
+
+.commiteeMemberImage:hover{
+  transform: scaleY(-1) ;
+  will-change: margin;
+  transition: 1s;
+  cursor: pointer;
+}
+
+</style>
 
 <script lang="ts">
 import Vue from 'vue'
