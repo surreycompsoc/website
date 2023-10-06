@@ -1,10 +1,10 @@
 <template>
   <div id="root">
-    <div style="float: left; position: fixed; display: block; object-position: bottom; margin: 10px; bottom: 0; ">
-      <a href="https://discord.gg/BypMWcnuY7" target="_blank">
-        <img class="discordOverlay" src="https://img.icons8.com/ios-filled/1000/000000/discord.png" />
-      </a>
-    </div>
+    <a href="https://discord.gg/BypMWcnuY7" target="_blank">
+      <div class="discordOverlay">
+          <img src="https://img.icons8.com/ios-filled/1000/000000/discord.png" />
+      </div>
+    </a>
 
 
     <Header :expanded='useExpandedHeader' />
@@ -14,17 +14,30 @@
 </template>
 
 
-<style>
-.discordOverlay{
-  box-shadow:2px 2px 5px ;
-  background-color:#7289da;
-  padding:10px;
+<style lang="scss">
+.discordOverlay {
+  box-shadow: 2px 2px 5px;
+  background-color: #7289da;
+  padding: 10px;
   border-radius: 50px;
   width: 60px;
   height: 60px;
-  margin: 10px;
+  margin: 20px;
   object-fit: contain;
   object-position: bottom;
+
+  position: fixed;
+  display: inline-block;
+  bottom: 0;
+  right: 0;
+
+  z-index: 999999;
+
+  img {
+    pointer-events: none !important;
+    filter: unquote("invert()");
+    display: inline-block;
+  }
 }
 
 .discordOverlay:hover{
