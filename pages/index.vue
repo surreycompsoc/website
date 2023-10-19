@@ -22,7 +22,7 @@
       <h2><b>Your Committee!</b></h2>
       <div class="committee-container">
         <div align="center" class="committee">
-          <div class="committeeMemberImage">
+          <div class="vpImg">
             <img src="~/assets/images/alexGodwin_person.jpg">
           </div>
           <h3>Vice President</h3>
@@ -32,7 +32,7 @@
         <br>
 
         <div align="center" class="committee">
-          <div class="committeeMemberImage">
+          <div class="presidentImg">
             <img src="~/assets/images/mia_person.jpg">
           </div>
           <h3>President</h3>
@@ -43,8 +43,8 @@
 
         <div>
           <div align="center" class="committee">
-            <div class="committeeMemberImage">
-              <img src="~/assets/images/rup_person.jpg">
+            <div class="treasurerImg" >
+              <img  src="~/assets/images/rup_person.jpg">
             </div>
             <h3>Treasurer</h3>
             <p>Rup Singh</p>
@@ -60,36 +60,7 @@
   </main>
 </template>
 
-<style lang="scss">
-.committee-container {
-  display: flex;
-}
 
-@media (max-width: 500px) {
-  .committee-container {
-    flex-direction: column;
-  }
-}
-.committeeMemberImage {
-  img {
-    width: 45%;
-    border-radius: 50%;
-  }
-
-  align-content: center;
-  object-fit: contain;
-  padding: 4px;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-.committeeMemberImage:hover img {
-  transform: scaleY(-1);
-  transition: 1s;
-  cursor: pointer;
-}
-
-</style>
 
 <script lang="ts">
 import Vue from 'vue'

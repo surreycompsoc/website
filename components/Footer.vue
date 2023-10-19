@@ -30,7 +30,7 @@
       </div>
     </div>
     <div class="copyright">
-      <p>Handcrafted by the CompSoc Committee</p>
+      <p>Handcrafted by the CompSoc Web Master</p>
     </div>
   </footer>
 </template>

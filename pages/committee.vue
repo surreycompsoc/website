@@ -4,7 +4,8 @@
     <h2><b>Introducing The Signatures! </b></h2>
     <div class="committee-container">
       <div align="center" class="committee">
-        <div class="committeeMemberImage">
+
+        <div class="vpImg">
           <img src="~/assets/images/alexGodwin_person.jpg">
         </div>
         <h3>Vice President</h3>
@@ -14,7 +15,7 @@
       <br>
 
       <div align="center" class="committee">
-        <div class="committeeMemberImage">
+        <div class="presidentImg">
           <img src="~/assets/images/mia_person.jpg">
         </div>
         <h3>President</h3>
@@ -25,7 +26,7 @@
 
       <div>
         <div align="center" class="committee">
-          <div class="committeeMemberImage">
+          <div class="treasurerImg">
             <img src="~/assets/images/rup_person.jpg">
           </div>
           <h3>Treasurer</h3>
@@ -38,64 +39,56 @@
 
     <div class="committee-container">
       <div align="center" class="committee">
-        <div class="committeeMemberImage">
-          <img src="~/assets/images/Portrait_Placeholder.png">
+        <div class="socialManagerImg">
+          <img src="~/assets/images/Mii/keerthana_mii.jpg">
         </div>
         <h3>Social Media Manager</h3>
-        <p>SM Manager Name</p>
+        <p>Keerthana Kumar</p>
       </div>
 
       <br>
 
       <div align="center" class="committee">
-        <div class="committeeMemberImage">
-          <img src="~/assets/images/Portrait_Placeholder.png">
+        <div class="webmasterImg">
+          <img src="~/assets/images/aran_person.jpg">
         </div>
         <h3>Web Master</h3>
-        <p>WM Name</p>
+        <p>Aran Jannson</p>
       </div>
 
       <br>
 
       <div>
         <div align="center" class="committee">
-          <div class="committeeMemberImage">
-            <img src="~/assets/images/Portrait_Placeholder.png">
+          <div class="wellfareImg">
+            <img src="~/assets/images/ryan_person.jpg">
           </div>
-          <h3>Wellbeing Officer</h3>
-          <p>WO Name</p>
+          <h3>Wellfare Officer</h3>
+          <p>Ryan Robson</p>
         </div>
       </div>
       </div>
 
     <div class="committee-container">
       <div align="center" class="committee">
-        <div class="committeeMemberImage">
-          <img src="~/assets/images/Portrait_Placeholder.png">
+        <div class="eventCoordImg">
+          <img src="~/assets/images/Mii/karis_mii.jpg">
         </div>
         <h3>Event Coordinator</h3>
-        <p>EC Name</p>
+        <p>Karis Koo</p>
       </div>
 
       <br>
 
       <div align="center" class="committee">
-        <div class="committeeMemberImage">
-          <img src="~/assets/images/Portrait_Placeholder.png">
+        <div class="graphicsDesImg">
+          <img src="~/assets/images/Mii/omm_mii.jpg">
         </div>
         <h3>Graphic Designer</h3>
-        <p>GD Name</p>
+        <p>Omm</p>
       </div>
 
       <br>
-
-      <div align="center" class="committee">
-        <div class="committeeMemberImage">
-          <img src="~/assets/images/Portrait_Placeholder.png">
-        </div>
-        <h3>Default</h3>
-        <p>Default</p>
-      </div>
 
 
     </div>

@@ -96,7 +96,8 @@ export default {
   // Style resources
   styleResources: {
     scss: [
-      '~/assets/styles/_global_inject.scss'
+      '~/assets/styles/_global_inject.scss',
+      '~/assets/styles/committeeTransitions.scss'
     ],
     hoistUseStatements: true,
   }
