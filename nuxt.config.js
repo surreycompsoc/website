@@ -1,3 +1,7 @@
+const crypto = require("crypto");
+const crypto_orig_createHash = crypto.createHash;
+crypto.createHash = algorithm => crypto_orig_createHash(algorithm == "md4" ? "sha256" : algorithm);
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -92,7 +96,8 @@ export default {
   // Style resources
   styleResources: {
     scss: [
-      '~/assets/styles/_global_inject.scss'
+      '~/assets/styles/_global_inject.scss',
+      '~/assets/styles/committeeTransitions.scss'
     ],
     hoistUseStatements: true,
   }

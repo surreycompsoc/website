@@ -1,0 +1,263 @@
+.committee-container {
+  display: flex;
+}
+
+@media (max-width: 500px) {
+  .committee-container {
+    flex-direction: column;
+  }
+}
+.committeeMemberImage {
+  img {
+    width: 45%;
+    border-radius: 50%;
+  }
+
+  align-content: center;
+  object-fit: contain;
+  padding: 4px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.committeeMemberImage:hover  {
+  transform: scaleY(-1);
+  transition: 1s;
+  cursor: pointer;
+
+
+}
+
+.treasurerImg{
+  img{
+    width: 45%;
+    border-radius: 50%;
+  }
+
+
+
+  border-radius: 50%;
+  align-content: center;
+  object-fit: contain;
+  padding: 4px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.treasurerImg:hover{
+
+  width: 45%;
+
+  content: url("~/assets/images/Mii/rup_mii.jpg");
+
+  transform: scaleY(-1);
+  transition: 1s;
+  cursor: pointer;
+
+
+}
+
+.presidentImg{
+  img{
+    width: 45%;
+    border-radius: 50%;
+  }
+
+
+
+  border-radius: 50%;
+  align-content: center;
+  object-fit: contain;
+  padding: 4px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.presidentImg:hover{
+
+  width: 45%;
+
+  content: url("~/assets/images/Mii/mia_mii.jpg");
+
+  transform: scaleY(-1);
+  transition: 1s;
+  cursor: pointer;
+
+
+}
+
+.vpImg{
+  img{
+    width: 45%;
+    border-radius: 50%;
+  }
+
+
+
+  border-radius: 50%;
+  align-content: center;
+  object-fit: contain;
+  padding: 4px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+//.alexImg:hover{
+//
+//  width: 45%;
+//
+//  content: url("~/assets/images/Mii/alexGodwin_mii.jpg");
+//
+//  transform: scaleY(-1);
+//  transition: 1s;
+//  cursor: pointer;
+//
+//
+//}
+
+.webmasterImg{
+  img{
+    width: 45%;
+    border-radius: 50%;
+  }
+
+
+
+  border-radius: 50%;
+  align-content: center;
+  object-fit: contain;
+  padding: 4px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.webmasterImg:hover{
+
+  width: 45%;
+
+  content: url("~/assets/images/Mii/aran_mii2.jpg");
+
+  transform: scaleY(-1);
+  transition: 1s;
+  cursor: pointer;
+
+
+}
+
+.wellfareImg{
+  img{
+    width: 45%;
+    border-radius: 50%;
+  }
+
+
+
+  border-radius: 50%;
+  align-content: center;
+  object-fit: contain;
+  padding: 4px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.wellfareImg:hover{
+
+  width: 45%;
+
+  content: url("~/assets/images/Mii/ryan_mii.jpg");
+
+  transform: scaleY(-1);
+  transition: 1s;
+  cursor: pointer;
+
+
+}
+
+
+.socialManagerImg{
+  img{
+    width: 45%;
+    border-radius: 50%;
+  }
+
+
+
+  border-radius: 50%;
+  align-content: center;
+  object-fit: contain;
+  padding: 4px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+//
+//.socialManagerImg:hover{
+//
+//  width: 45%;
+//
+//  content: url("~/assets/images/Mii/ryan_mii.jpg");
+//
+//  transform: scaleY(-1);
+//  transition: 1s;
+//  cursor: pointer;
+//
+//
+//}
+
+.eventCoordImg{
+  img{
+    width: 45%;
+    border-radius: 50%;
+  }
+
+
+
+  border-radius: 50%;
+  align-content: center;
+  object-fit: contain;
+  padding: 4px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+//.eventCoordImg:hover{
+//
+//  width: 45%;
+//
+//  content: url("~/assets/images/Mii/ryan_mii.jpg");
+//
+//  transform: scaleY(-1);
+//  transition: 1s;
+//  cursor: pointer;
+//
+//
+//}
+
+.graphicsDesImg{
+  img{
+    width: 45%;
+    border-radius: 50%;
+  }
+
+
+
+  border-radius: 50%;
+  align-content: center;
+  object-fit: contain;
+  padding: 4px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+//.graphicsDesImg:hover{
+//
+//  width: 45%;
+//
+//  content: url("~/assets/images/Mii/ryan_mii.jpg");
+//
+//  transform: scaleY(-1);
+//  transition: 1s;
+//  cursor: pointer;
+//
+//
+//}
+

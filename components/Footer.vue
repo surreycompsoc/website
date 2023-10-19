@@ -30,14 +30,14 @@
       </div>
     </div>
     <div class="copyright">
-      <p>Handcrafted with &hearts; by the 2021 CompSoc committee!</p>
+      <p>Handcrafted by the CompSoc Web Master</p>
     </div>
   </footer>
 </template>
 
 <style lang="scss">
 footer {
-  position: relative;
+
   margin-top: 80px;
   display: block;
   background: #F9FAFB;
@@ -122,8 +122,10 @@ footer {
 
 <script lang="ts">
 import Vue from 'vue';
+import Committee from "~/pages/committee.vue";
 
 export default Vue.extend({
+  components: {Committee},
   computed: {
     year() {
       return new Date().getUTCFullYear();
