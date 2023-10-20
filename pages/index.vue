@@ -21,37 +21,39 @@
     <div class="content prose" style="text-align: center; width: 100%; background-color: rgb(239, 239, 239); padding: 20px 10px; border-radius: 10px; position: relative; z-index: 0;">
       <h2><b>Your Committee!</b></h2>
       <div class="committee-container">
-        <div align="center" class="committee">
-          <div class="vpImg">
+        <div class="committee">
+          <div class="committeeMemberImage">
             <img src="~/assets/images/alexGodwin_person.jpg">
           </div>
+
           <h3>Vice President</h3>
           <p>Alex Godwin</p>
         </div>
 
-        <br>
-
-        <div align="center" class="committee">
-          <div class="presidentImg">
+        <div class="committee flippable">
+          <div class="committeeMemberImage">
             <img src="~/assets/images/mia_person.jpg">
+            <img src="~/assets/images/Mii/mia_mii.jpg">
           </div>
+
           <h3>President</h3>
           <p>Mia Tran</p>
         </div>
 
-        <br>
-
-        <div>
-          <div align="center" class="committee">
-            <div class="treasurerImg" >
-              <img  src="~/assets/images/rup_person.jpg">
-            </div>
-            <h3>Treasurer</h3>
-            <p>Rup Singh</p>
+        <div class="committee flippable">
+          <div class="committeeMemberImage">
+            <img src="~/assets/images/rup_person.jpg">
+            <img src="~/assets/images/Mii/rup_mii.jpg">
           </div>
+
+          <h3>Treasurer</h3>
+          <p>Rup Singh</p>
         </div>
 
       </div>
+
+      <br>
+
       <LinkButton extended to="committee" style="color: white">
         See The Entire Team!
         <template #suffix><GlyphIcon of="arrow_continue" /></template>

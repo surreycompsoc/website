@@ -1,9 +1,9 @@
 <template>
   <nuxt-link v-if="type === 'internal'" class="appLinkButton" :class="{ extended }" :to="to">
-    <slot /> <span class="suffix"><slot name="suffix" /></span>
+    <span class="prefix"><slot name="prefix" /></span> <slot /> <span class="suffix"><slot name="suffix" /></span>
   </nuxt-link>
   <a v-else class="appLinkButton" :class="{ extended }" :href="to" target="_blank">
-    <slot /> <span class="suffix"><slot name="suffix" /></span>
+    <span class="prefix"><slot name="prefix" /></span> <slot /> <span class="suffix"><slot name="suffix" /></span>
   </a>
 </template>
 
@@ -39,7 +39,7 @@
     transition: filter .2s ease-out;
   }
 
-  .suffix {
+  .suffix, .prefix {
     display: inline-block;
     position: relative;
     top: 0;
@@ -52,6 +52,11 @@
     svg {
       height: 18px;
     }
+  }
+
+  .prefix {
+    padding-left: 0;
+    padding-right: 5px;
   }
 
   &:hover {

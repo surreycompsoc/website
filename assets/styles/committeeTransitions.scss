@@ -1,5 +1,6 @@
 .committee-container {
   display: flex;
+  justify-content: space-evenly;
 }
 
 @media (max-width: 500px) {
@@ -7,257 +8,66 @@
     flex-direction: column;
   }
 }
-.committeeMemberImage {
-  img {
-    width: 45%;
-    border-radius: 50%;
+
+.committee {
+  h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
   }
 
-  align-content: center;
-  object-fit: contain;
-  padding: 4px;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-.committeeMemberImage:hover  {
-  transform: scaleY(-1);
-  transition: 1s;
-  cursor: pointer;
-
-
-}
-
-.treasurerImg{
-  img{
-    width: 45%;
-    border-radius: 50%;
+  p {
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1 !important;
   }
 
+  .committeeMemberImage {
+    img {
+      height: 150px !important;
+      width: 150px !important;
+      border-radius: 50%;
+    }
 
+    height: 150px !important;
+    width: 150px !important;
+    margin: 0 0 5px;
+    padding: 0;
+    position: relative;
 
-  border-radius: 50%;
-  align-content: center;
-  object-fit: contain;
-  padding: 4px;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-.treasurerImg:hover{
-
-  width: 45%;
-
-  content: url("~/assets/images/Mii/rup_mii.jpg");
-
-  transform: scaleY(-1);
-  transition: 1s;
-  cursor: pointer;
-
-
-}
-
-.presidentImg{
-  img{
-    width: 45%;
-    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
   }
 
+  &.flippable .committeeMemberImage {
+    img {
+      -webkit-backface-visibility: hidden; /* Safari */
+      backface-visibility: hidden;
 
+      transition: transform .3s ease-in-out;
+      transform: rotateX(0deg);
+      transform-origin: center;
+    }
 
-  border-radius: 50%;
-  align-content: center;
-  object-fit: contain;
-  padding: 4px;
-  margin-left: 5%;
-  margin-right: 5%;
+    img:last-child {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      transform: rotateX(180deg);
+    }
+  }
 }
 
-.presidentImg:hover{
-
-  width: 45%;
-
-  content: url("~/assets/images/Mii/mia_mii.jpg");
-
-  transform: scaleY(-1);
-  transition: 1s;
-  cursor: pointer;
-
-
-}
-
-.vpImg{
-  img{
-    width: 45%;
-    border-radius: 50%;
+.committee.flippable:hover .committeeMemberImage {
+  img:first-child {
+    transform: rotateX(180deg);
   }
 
-
-
-  border-radius: 50%;
-  align-content: center;
-  object-fit: contain;
-  padding: 4px;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-//.alexImg:hover{
-//
-//  width: 45%;
-//
-//  content: url("~/assets/images/Mii/alexGodwin_mii.jpg");
-//
-//  transform: scaleY(-1);
-//  transition: 1s;
-//  cursor: pointer;
-//
-//
-//}
-
-.webmasterImg{
-  img{
-    width: 45%;
-    border-radius: 50%;
+  img:last-child {
+    transform: rotateX(0deg);
   }
-
-
-
-  border-radius: 50%;
-  align-content: center;
-  object-fit: contain;
-  padding: 4px;
-  margin-left: 5%;
-  margin-right: 5%;
 }
-
-.webmasterImg:hover{
-
-  width: 45%;
-
-  content: url("~/assets/images/Mii/aran_mii2.jpg");
-
-  transform: scaleY(-1);
-  transition: 1s;
-  cursor: pointer;
-
-
-}
-
-.wellfareImg{
-  img{
-    width: 45%;
-    border-radius: 50%;
-  }
-
-
-
-  border-radius: 50%;
-  align-content: center;
-  object-fit: contain;
-  padding: 4px;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-.wellfareImg:hover{
-
-  width: 45%;
-
-  content: url("~/assets/images/Mii/ryan_mii.jpg");
-
-  transform: scaleY(-1);
-  transition: 1s;
-  cursor: pointer;
-
-
-}
-
-
-.socialManagerImg{
-  img{
-    width: 45%;
-    border-radius: 50%;
-  }
-
-
-
-  border-radius: 50%;
-  align-content: center;
-  object-fit: contain;
-  padding: 4px;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-//
-//.socialManagerImg:hover{
-//
-//  width: 45%;
-//
-//  content: url("~/assets/images/Mii/ryan_mii.jpg");
-//
-//  transform: scaleY(-1);
-//  transition: 1s;
-//  cursor: pointer;
-//
-//
-//}
-
-.eventCoordImg{
-  img{
-    width: 45%;
-    border-radius: 50%;
-  }
-
-
-
-  border-radius: 50%;
-  align-content: center;
-  object-fit: contain;
-  padding: 4px;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-//.eventCoordImg:hover{
-//
-//  width: 45%;
-//
-//  content: url("~/assets/images/Mii/ryan_mii.jpg");
-//
-//  transform: scaleY(-1);
-//  transition: 1s;
-//  cursor: pointer;
-//
-//
-//}
-
-.graphicsDesImg{
-  img{
-    width: 45%;
-    border-radius: 50%;
-  }
-
-
-
-  border-radius: 50%;
-  align-content: center;
-  object-fit: contain;
-  padding: 4px;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-//.graphicsDesImg:hover{
-//
-//  width: 45%;
-//
-//  content: url("~/assets/images/Mii/ryan_mii.jpg");
-//
-//  transform: scaleY(-1);
-//  transition: 1s;
-//  cursor: pointer;
-//
-//
-//}
-
