@@ -14,6 +14,8 @@
         <p>Alex Godwin</p>
       </div>
 
+      <br>
+
       <div class="committee flippable">
         <div class="committeeMemberImage">
           <img src="~/assets/images/mia_person.jpg">
@@ -23,6 +25,8 @@
         <h3>President</h3>
         <p>Mia Tran</p>
       </div>
+
+      <br>
 
       <div class="committee flippable">
         <div class="committeeMemberImage">
@@ -50,6 +54,8 @@
         <p>Keerthana Kumar</p>
       </div>
 
+      <br>
+
       <div class="committee">
         <div class="committeeMemberImage">
           <img src="~/assets/images/aran_person.jpg">
@@ -58,6 +64,8 @@
         <h3>Web Master</h3>
         <p>Aran Jannson</p>
       </div>
+
+      <br>
 
       <div class="committee">
         <div class="committeeMemberImage">
@@ -80,6 +88,8 @@
         <h3>Event Coordinator</h3>
         <p>Karis Koo</p>
       </div>
+
+      <br>
 
       <div class="committee">
         <div class="committeeMemberImage">

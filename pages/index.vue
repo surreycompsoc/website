@@ -30,6 +30,8 @@
           <p>Alex Godwin</p>
         </div>
 
+        <br>
+
         <div class="committee flippable">
           <div class="committeeMemberImage">
             <img src="~/assets/images/mia_person.jpg">
@@ -39,6 +41,8 @@
           <h3>President</h3>
           <p>Mia Tran</p>
         </div>
+
+        <br>
 
         <div class="committee flippable">
           <div class="committeeMemberImage">
