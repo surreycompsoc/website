@@ -56,9 +56,10 @@
 
       <br>
 
-      <div class="committee">
+      <div class="committee flippable">
         <div class="committeeMemberImage">
           <img src="~/assets/images/aran_person.jpg">
+          <img src="~/assets/images/Mii/aran_mii.jpg">
         </div>
 
         <h3>Web Master</h3>
@@ -67,9 +68,10 @@
 
       <br>
 
-      <div class="committee">
+      <div class="committee flippable">
         <div class="committeeMemberImage">
           <img src="~/assets/images/ryan_person.jpg">
+          <img src="~/assets/images/Mii/ryan_mii.jpg">
         </div>
 
         <h3>Welfare Officer</h3>
