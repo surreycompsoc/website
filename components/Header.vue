@@ -12,7 +12,7 @@
       <!-- Root navigational elements -->
       <nav>
         <a href="/">
-          <img class="logo" role="presentation" draggable="false" src="/images/logo_grouped.png" alt="Surrey CompSoc logo">
+          <img class="logo" role="presentation" draggable="false" src="~/assets/images/logo_grouped 2023.png" alt="Surrey CompSoc logo">
         </a>
         <div class="links">
 <!--          <nuxt-link to="/">Home</nuxt-link>-->
