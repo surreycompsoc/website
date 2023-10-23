@@ -99,7 +99,7 @@
         </div>
 
         <h3>Graphic Designer</h3>
-        <p>Omm</p>
+        <p>Omm Bhavsar</p>
       </div>
     </div>
 
