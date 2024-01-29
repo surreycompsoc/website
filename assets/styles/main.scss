@@ -5,6 +5,23 @@ html, body, input, * {
   font-family: $defaultFontStack;
 }
 
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c9c9c9;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #797979;
+}
+
 .text-bold { font-weight: bold; }
 
 .vspace {

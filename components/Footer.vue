@@ -7,9 +7,9 @@
         <p><a href="mailto:ussu.computing@surrey.ac.uk">ussu.computing@surrey.ac.uk</a></p>
         <div class="spacer" />
         <div class="brands">
-          <a href="https://www.bcs.org/membership-and-registrations/member-communities/student-chapters/" target="_blank">
-            <img alt="British Computer Society" src="~/assets/images/bcs-logo.png">
-          </a>
+<!--          <a href="https://www.bcs.org/membership-and-registrations/member-communities/student-chapters/" target="_blank">-->
+<!--            <img alt="British Computer Society" src="~/assets/images/bcs-logo.png">-->
+<!--          </a>-->
           <a href="https://ussu.co.uk/" target="_blank">
             <img alt="University of Surrey Students' Union" src="~/assets/images/ussu-logo.png">
           </a>
@@ -19,18 +19,19 @@
         <p class="text-bold">Follow us on social media!</p>
         <p class="links">
           <a href="https://www.facebook.com/ComputingSoc" target="_blank"><i class="im im-facebook" /></a>
-          <a href="https://twitter.com/surreycompsoc" target="_blank"><i class="im im-twitter" /></a>
           <a href="https://instagram.com/surreycompsoc" target="_blank"><i class="im im-instagram" /></a>
-          <a href="https://twitch.tv/surreycompsoc" target="_blank"><i class="im im-twitch" /></a>
           <a href="https://github.com/surreycompsoc" target="_blank"><i class="im im-github" /></a>
         </p>
         <div class="vspace" />
         <p class="text-bold">Spotted a typo?</p>
         <p>We're <a href="https://github.com/surreycompsoc/website" target="_blank">on GitHub</a>!</p>
+        <p class="text-bold" style="margin-top: 0.5rem">Found a major issue?</p>
+        <p>Contact the WebMaster</p>
+        <a href="https://www.aranjannson.com/">aranjannson.com</a>
       </div>
     </div>
     <div class="copyright">
-      <p>Handcrafted in 2023 by the CompSoc Webmaster<br><small>Copyright &copy; {{year}} Surrey CompSoc</small></p>
+      <p>Handcrafted in 2023 by the CompSoc Webmaster<br><small>Copyright &copy; 2023 - {{year}} Surrey CompSoc</small></p>
     </div>
   </footer>
 </template>
