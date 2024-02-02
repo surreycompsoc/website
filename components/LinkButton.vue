@@ -15,6 +15,10 @@
   color: white;
   background: #4BB1BA;
   background: linear-gradient(27.73deg, #7089CC 29.47%, #4BB1BA 100%);
+  @media (prefers-color-scheme: dark) {
+    background: linear-gradient(to bottom, #333, #111);
+
+  }
   border-radius: 6px;
   padding: 8px 25px;
   outline: none !important;
@@ -35,6 +39,12 @@
     height: 100%;
     width: 100%;
     background: linear-gradient(27.73deg, #7089CC 29.47%, #4BB1BA 100%);
+
+    @media (prefers-color-scheme: dark) {
+      background: linear-gradient(to bottom, #333, #111);
+
+    }
+
     border-radius: 6px;
     transition: filter .2s ease-out;
   }

@@ -20,7 +20,7 @@
 
 <!--    To get hover effect to work over button use: position: relative; z-index: 0;-->
 
-    <div class="content prose" style="text-align: center; width: 100%; background-color: rgb(239, 239, 239); padding: 20px 10px; border-radius: 10px; position: relative; z-index: 0; box-shadow: 0 10px 20px rgba(31, 45, 55, 0.2), 0 2px 6px rgba(31, 45, 55, 0.1);">
+    <div class="content prose" style="text-align: center; width: 100%; background-color: rgb(239, 239, 239);  padding: 20px 10px; border-radius: 10px; position: relative; z-index: 0; box-shadow: 0 10px 20px rgba(31, 45, 55, 0.2), 0 2px 6px rgba(31, 45, 55, 0.1);">
       <h2><b>Your Committee!</b></h2>
       <div class="committee-container">
         <div class="committee">

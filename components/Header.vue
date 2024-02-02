@@ -68,6 +68,11 @@ header#appHeader {
   &:not(.expanded) {
     height: $headerHeight;
     background: linear-gradient(27.73deg, #8572D6 29.47%, #27D7A9 100%);
+    @media (prefers-color-scheme: dark) {
+      background: linear-gradient(to right, #2c2c2c, #000);
+
+
+    }
   }
 
   .presentation {
@@ -85,6 +90,12 @@ header#appHeader {
       height: $expandedHeaderHeight;
       z-index: -1;
       background: linear-gradient(27.73deg, #8572D6 29.47%, #27D7A9 100%);
+      @media (prefers-color-scheme: dark) {
+        background: linear-gradient(to right, #2c2c2c, #000);
+
+      }
+
+
       transition: height $headerTransition;
       clip-path: polygon(0 0, 100% 0, 100% $arrowStart, 50% 100%, 50% 100%, 0 $arrowStart);
     }
