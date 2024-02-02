@@ -50,8 +50,8 @@ export default Vue.extend({
 </script>
 
 <style lang='scss'>
-$headerHeight: 90px;
-$expandedHeaderHeight: 400px;
+$headerHeight: 125px;
+$expandedHeaderHeight: 500px;
 $arrowStart: 85%;
 $headerTransition: .2s ease-out;
 
@@ -141,7 +141,6 @@ header#appHeader {
         align-content: center;
         gap: 10px 10px;
         margin-top: 20px;
-        margin-bottom: 20px;
       }
 
       a {
