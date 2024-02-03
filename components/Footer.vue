@@ -31,7 +31,7 @@
       </div>
     </div>
     <div class="copyright">
-      <p>Handcrafted in 2023 by the CompSoc Webmaster<br><small>Copyright &copy; 2023 - {{year}} Surrey CompSoc</small></p>
+      <p>Handcrafted by the CompSoc Webmaster<br><small>Copyright &copy; 2023 - {{year}} Surrey CompSoc</small></p>
     </div>
   </footer>
 </template>
