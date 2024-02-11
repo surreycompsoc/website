@@ -14,7 +14,7 @@
             <img alt="University of Surrey Students' Union" src="~/assets/images/ussu-logo.png">
           </a>
           <a href="https://www.huzzle.app/societies/compsoc" target="_blank">
-            <img alt="Huzzle" src="https://assets-global.website-files.com/652d2475f39e846f2116f06b/652d2475f39e846f2116f481_huzzle_logo-p-500.png">
+            <img alt="Huzzle" src="~/assets/images/huzzle-logo.png">
           </a>
         </div>
       </div>
