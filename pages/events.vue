@@ -43,22 +43,22 @@ export default {
           "location": "AP Lab 2",
           "time": "18:00 - 20:00"
         },
-        // {
-        //   "id": 3,
-        //   "img": "/icon.png",
-        //   "title": "Hackathon (Introduction)",
-        //   "date": "TBC",
-        //   "location": "Location 1",
-        //   "time": "TBC"
-        // },
-        // {
-        //   "id": 4,
-        //   "img": "/icon.png",
-        //   "title": "Hackathon (Presentation)",
-        //   "date": "TBC",
-        //   "location": "Location 2",
-        //   "time": "TBC"
-        // },
+        {
+          "id": 3,
+          "img": "/icon.png",
+          "title": "Hackathon (Introduction & Briefing)",
+          "date": "28/02/24",
+          "location": "LTE",
+          "time": "13:00"
+        },
+        {
+          "id": 4,
+          "img": "/icon.png",
+          "title": "Hackathon (Presentation & Awards)",
+          "date": "06/03/24",
+          "location": "TBC",
+          "time": "TBC"
+        },
       ]
     }
   }
