@@ -59,6 +59,14 @@ export default {
           "location": "TBC",
           "time": "TBC"
         },
+        {
+          "id": 5,
+          "img": "/icon.png",
+          "title": "Stem Quiz",
+          "date": "15/02/24",
+          "location": "LTD",
+          "time": "18:20"
+        }
       ]
     }
   }
