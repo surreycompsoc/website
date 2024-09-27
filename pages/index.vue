@@ -25,35 +25,32 @@
       <div class="committee-container">
         <div class="committee">
           <div class="committeeMemberImage">
-            <img src="~/assets/images/alexGodwin_person.jpg">
+            <img src="~/assets/images/saidAit_person.jpg">
           </div>
 
           <h3>Vice President</h3>
-          <p>Alex Godwin</p>
+          <p>Saïd Ait Ennecer</p>
         </div>
 
         <br>
 
-        <div class="committee flippable">
+        <div class="committee">
           <div class="committeeMemberImage">
-            <img src="~/assets/images/mia_person.jpg">
-            <img src="~/assets/images/Mii/mia_mii.jpg">
+            <img src="~/assets/images/myo_person.jpg">
           </div>
 
           <h3>President</h3>
-          <p>Mia Tran</p>
+          <p>Myo Myint Thu</p>
         </div>
 
         <br>
 
-        <div class="committee flippable">
-          <div class="committeeMemberImage">
-            <img src="~/assets/images/rup_person.jpg">
-            <img src="~/assets/images/Mii/rup_mii.jpg">
-          </div>
-
-          <h3>Treasurer</h3>
-          <p>Rup Singh</p>
+        <div class="committee">
+        <div class="committeeMemberImage">
+          <img src="~/assets/images/nigel_person.jpg">
+        </div>
+        <h3>Treasurer</h3>
+        <p>Nigel</p>
         </div>
 
       </div>

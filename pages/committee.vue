@@ -7,35 +7,31 @@
     <div class="committee-container">
       <div class="committee">
         <div class="committeeMemberImage">
-          <img src="~/assets/images/alexGodwin_person.jpg">
+          <img src="~/assets/images/saidAit_person.jpg">
         </div>
 
         <h3>Vice President</h3>
-        <p>Alex Godwin</p>
+        <p>Saïd Ait Ennecer</p>
       </div>
 
       <br>
 
-      <div class="committee flippable">
+      <div class="committee">
         <div class="committeeMemberImage">
-          <img src="~/assets/images/mia_person.jpg">
-          <img src="~/assets/images/Mii/mia_mii.jpg">
+          <img src="~/assets/images/myo_person.jpg">
         </div>
-
         <h3>President</h3>
-        <p>Mia Tran</p>
+        <p>Myo Myint Thu</p>
       </div>
 
       <br>
 
-      <div class="committee flippable">
+      <div class="committee">
         <div class="committeeMemberImage">
-          <img src="~/assets/images/rup_person.jpg">
-          <img src="~/assets/images/Mii/rup_mii.jpg">
+          <img src="~/assets/images/nigel_person.jpg">
         </div>
-
         <h3>Treasurer</h3>
-        <p>Rup Singh</p>
+        <p>Nigel</p>
       </div>
     </div>
 
@@ -43,39 +39,92 @@
 
     <h2><b>Your Non-Signatories!</b></h2>
     <br>
-
+    
     <div class="committee-container">
       <div class="committee">
         <div class="committeeMemberImage">
-          <img src="~/assets/images/Mii/keerthana_mii.jpg">
+        <img src="~/assets/images/tom_person.jpg">
         </div>
-
-        <h3>Social Media Manager</h3>
-        <p>Keerthana Kumar</p>
+        <h3>Social Media</h3>
+        <h3>Manager</h3>
+        <p>Tomisin</p>
       </div>
 
       <br>
 
-      <div class="committee flippable">
+      <div class="committee">
         <div class="committeeMemberImage">
-          <img src="~/assets/images/aran_person.jpg">
-          <img src="~/assets/images/Mii/aran_mii.jpg">
+          <img src="~/assets/images/raghav_person.jpg">
         </div>
-
-        <h3>Web Master</h3>
-        <p>Aran Jannson</p>
+        <h3>Social Media</h3>
+        <h3>Manager</h3>
+        <p>Raaghav K</p>
       </div>
 
       <br>
 
-      <div class="committee flippable">
+      <div class="committee">
         <div class="committeeMemberImage">
-          <img src="~/assets/images/ryan_person.jpg">
-          <img src="~/assets/images/Mii/ryan_mii.jpg">
+        <img src="~/assets/images/damy_person.jpg">
         </div>
+        <h3>Graphic Designer</h3>
+        <p>Damy</p>
+      </div>
 
-        <h3>Welfare Officer</h3>
-        <p>Ryan Robson</p>
+      <br>
+
+      <div class="committee">
+        <div class="committeeMemberImage">
+          <img src="~/assets/images/sami_person.jpg">
+        </div>
+        <h3>Graphic Designer</h3>
+        <p>Sami</p>
+      </div>
+
+    </div>
+
+    <br>
+
+    <div class="committee-container">
+
+      <div class="committee">
+        <div class="committeeMemberImage">
+          <img src="~/assets/images/alis_person.jpg">
+        </div>
+        <h3>Event</h3>
+        <h3>Manager</h3>
+        <p>Alistair</p>
+      </div>
+
+      <br>
+
+      <div class="committee">
+        <div class="committeeMemberImage">
+          <img src="~/assets/images/ryan1_person.jpg">
+        </div>
+        <h3>Event</h3>
+        <h3>Manager</h3>
+        <p>Rayan Khan</p>
+      </div>
+
+      <br>
+
+      <div class="committee">
+        <div class="committeeMemberImage">
+        <img src="~/assets/images/dhimant_person.jpg">
+        </div>
+        <h3>WebMaster</h3>
+        <p>Dhimant Panchal</p>
+      </div>
+
+      <br>
+
+      <div class="committee">
+        <div class="committeeMemberImage">
+        <img src="~/assets/images/iyad_person.jpg">
+        </div>
+        <h3>WebMaster</h3>
+        <p>Iyad Cherifi</p>
       </div>
     </div>
 
@@ -84,23 +133,21 @@
     <div class="committee-container">
       <div class="committee">
         <div class="committeeMemberImage">
-          <img src="~/assets/images/Mii/karis_mii.jpg">
         </div>
-
-        <h3>Event Coordinator</h3>
-        <p>Karis Koo</p>
+        <h3>Welfare Officer</h3>
+        <p>Omar houchou</p>
       </div>
 
-      <br>
+    <br>
 
+    <div class="committee-container">
       <div class="committee">
         <div class="committeeMemberImage">
-          <img src="~/assets/images/Mii/omm_mii.jpg">
         </div>
-
-        <h3>Graphic Designer</h3>
-        <p>Omm Bhavsar</p>
+        <h3>Fundraiser</h3>
+        <p>Rossie</p>
       </div>
+    </div>
     </div>
 
     <br><br>
