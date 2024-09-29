@@ -133,7 +133,6 @@
     <div class="committee-container">
       <div class="committee">
         <div class="committeeMemberImage">
-        <img src="~/assets/images/iyad_person.jpg">
         </div>
         <h3>Welfare Officer</h3>
         <p>Omar houchou</p>
