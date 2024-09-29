@@ -37,7 +37,7 @@
 
     <br><br>
 
-    <h2><b>Your Non-Signatories!</b></h2>
+    <h2><b>The Non-Signatories!</b></h2>
     <br>
     
     <div class="committee-container">
@@ -133,6 +133,7 @@
     <div class="committee-container">
       <div class="committee">
         <div class="committeeMemberImage">
+        <img src="~/assets/images/iyad_person.jpg">
         </div>
         <h3>Welfare Officer</h3>
         <p>Omar houchou</p>
@@ -143,6 +144,7 @@
     <div class="committee-container">
       <div class="committee">
         <div class="committeeMemberImage">
+        <img src="~/assets/images/rossie_person.jpg">
         </div>
         <h3>Fundraiser</h3>
         <p>Rossie</p>

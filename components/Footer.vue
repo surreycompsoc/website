@@ -30,7 +30,7 @@
         <p>We're <a href="https://github.com/surreycompsoc/website" target="_blank">on GitHub</a>!</p>
         <p class="text-bold" style="margin-top: 0.5rem">Found a major issue?</p>
         <p>Contact the WebMaster</p>
-        <a href="https://www.aranjannson.com/">aranjannson.com</a>
+        <a href="https://mohamediyadcherifi.com/">mohamediyadcherifi.com</a>
       </div>
     </div>
     <div class="copyright">

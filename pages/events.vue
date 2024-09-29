@@ -27,46 +27,6 @@ export default {
   data() {
     return {
       events: [
-        {
-          "id": 1,
-          "img": "/icon.png",
-          "title": "Refreshers Fair",
-          "date": "06/02/2024",
-          "location": "PATS Field",
-          "time": "10:00 - 16:00"
-        },
-        {
-          "id": 2,
-          "img": "/icon.png",
-          "title": "Node.js Workshop",
-          "date": "08/02/2024",
-          "location": "AP Lab 2",
-          "time": "18:00 - 20:00"
-        },
-        {
-          "id": 3,
-          "img": "/icon.png",
-          "title": "Stem Quiz",
-          "date": "15/02/24",
-          "location": "LTD",
-          "time": "18:20"
-        },
-        {
-          "id": 4,
-          "img": "/icon.png",
-          "title": "Hackathon (Introduction & Briefing)",
-          "date": "28/02/24",
-          "location": "LTE",
-          "time": "13:00"
-        },
-        {
-          "id": 5,
-          "img": "/icon.png",
-          "title": "Hackathon (Presentation & Awards)",
-          "date": "06/03/24",
-          "location": "TBC",
-          "time": "TBC"
-        },
       ]
     }
   }
