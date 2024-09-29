@@ -50,7 +50,7 @@
           <img src="~/assets/images/nigel_person.jpg">
         </div>
         <h3>Treasurer</h3>
-        <p>Nigel</p>
+        <p>Nigel Agbley</p>
         </div>
 
       </div>

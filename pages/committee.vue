@@ -31,7 +31,7 @@
           <img src="~/assets/images/nigel_person.jpg">
         </div>
         <h3>Treasurer</h3>
-        <p>Nigel</p>
+        <p>Nigel Agbley</p>
       </div>
     </div>
 
@@ -43,22 +43,20 @@
     <div class="committee-container">
       <div class="committee">
         <div class="committeeMemberImage">
-        <img src="~/assets/images/tom_person.jpg">
+        <img src="~/assets/images/omar_person.jpg">
         </div>
-        <h3>Social Media</h3>
-        <h3>Manager</h3>
-        <p>Tomisin</p>
+        <h3>Wellfare Officer</h3>
+        <p>Omar Houchou</p>
       </div>
 
       <br>
 
       <div class="committee">
         <div class="committeeMemberImage">
-          <img src="~/assets/images/raghav_person.jpg">
+          <img src="~/assets/images/rossie_person.jpg">
         </div>
-        <h3>Social Media</h3>
-        <h3>Manager</h3>
-        <p>Raaghav K</p>
+        <h3>Fundraiser</h3>
+        <p>Rossitza Dimitrova </p>
       </div>
 
       <br>
@@ -68,7 +66,7 @@
         <img src="~/assets/images/damy_person.jpg">
         </div>
         <h3>Graphic Designer</h3>
-        <p>Damy</p>
+        <p>Damy Matuwidi</p>
       </div>
 
       <br>
@@ -78,7 +76,7 @@
           <img src="~/assets/images/sami_person.jpg">
         </div>
         <h3>Graphic Designer</h3>
-        <p>Sami</p>
+        <p>Sami Kilani</p>
       </div>
 
     </div>
@@ -93,7 +91,7 @@
         </div>
         <h3>Event</h3>
         <h3>Manager</h3>
-        <p>Alistair</p>
+        <p>Alistair Deane</p>
       </div>
 
       <br>
@@ -133,22 +131,23 @@
     <div class="committee-container">
       <div class="committee">
         <div class="committeeMemberImage">
+        <img src="~/assets/images/tom_person.jpg">
         </div>
-        <h3>Welfare Officer</h3>
-        <p>Omar houchou</p>
+        <h3>Social Media</h3>
+        <h3>Manager</h3>
+        <p>Tomisin Adeboyejo</p>
       </div>
 
     <br>
 
-    <div class="committee-container">
       <div class="committee">
         <div class="committeeMemberImage">
-        <img src="~/assets/images/rossie_person.jpg">
+        <img src="~/assets/images/raghav_person.jpg">
         </div>
-        <h3>Fundraiser</h3>
-        <p>Rossie</p>
+        <h3>Social Media</h3>
+        <h3>Manager</h3>
+        <p>Raaghav Kulshreshtha</p>
       </div>
-    </div>
     </div>
 
     <br><br>
