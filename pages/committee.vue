@@ -140,15 +140,15 @@
 
     <br>
 
-    <div class="committee-container">
-      <div class="committee">
-        <div class="committeeMemberImage">
-        <img src="~/assets/images/rossie_person.jpg">
+   <div class="committee-container">
+          <div class="committee">
+            <div class="committeeMemberImage rossie">
+              <img src="~/assets/images/rossie_person.jpg" />
+            </div>
+            <h3>Fundraising Officer</h3>
+            <p>Rossitza</p>
+          </div>
         </div>
-        <h3>Fundraiser</h3>
-        <p>Rossie</p>
-      </div>
-    </div>
     </div>
 
     <br><br>
