@@ -42,7 +42,15 @@
     display: flex;
     justify-content: center;
     align-content: center;
+
+     .rossie{
+    img{
+      object-fit: cover;
+      object-position: 40% 60%;
+
+    }
   }
+  
 
   &.flippable .committeeMemberImage {
     img {
