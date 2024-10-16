@@ -3,6 +3,7 @@
     <div v-if="event" class="center-mount">
       <h2>{{ event.title }}</h2>
       <img :src="event.img" :alt="event.title" class="event-image" />
+      <p><span class="text-bold"></span> {{ event.details }}</p>
       <p><span class="text-bold">Date:</span> {{ event.date }}</p>
       <p><span class="text-bold">Location:</span> {{ event.location }}</p>
       <p><span class="text-bold">Time:</span> {{ event.time }}</p>
@@ -70,6 +71,18 @@ export default {
           "status" : "Completed",
           "time": "TBC"
         },
+        {
+          "id": 6,
+          "img": "/movie.png",
+          "title": "Movie Night",
+          "details": `Get ready for an epic night with @CompSoc! 🎬 🍿
+This Thursday, we’re screening the mind-bending film Ex Machina!
+Join us for an evening of tech, AI, and a whole lot of thrills. 🤖`,
+          "date": "17/10/2024",
+          "location": "LTL",
+          "status" : "Upcoming",
+          "time": "18:00 - 21:00"
+        },
       ],
       event: null // This will store the matched event
     }
@@ -84,8 +97,8 @@ export default {
 
 <style scoped>
 .event-image {
-  width: 200px;
-  height: 200px;
+  width: 500px;
+  height: 500px;
   object-fit: cover;
   margin-bottom: 20px;
   border-radius: 10%;

@@ -72,6 +72,15 @@ export default {
           "status" : "Completed",
           "time": "TBC"
         },
+        {
+          "id": 6,
+          "img": "/movie.png",
+          "title": "Movie Night",
+          "date": "17/10/2024",
+          "location": "LTL",
+          "status" : "Upcoming",
+          "time": "18:00 - 21:00"
+        },
       ]
     }
   }
