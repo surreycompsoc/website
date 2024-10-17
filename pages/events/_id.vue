@@ -80,7 +80,7 @@ This Thursday, we’re screening the mind-bending film Ex Machina!
 Join us for an evening of tech, AI, and a whole lot of thrills. 🤖`,
           "date": "17/10/2024",
           "location": "LTL",
-          "status" : "Upcoming",
+          "status" : "Ongoing",
           "time": "18:00 - 21:00"
         },
       ],
