@@ -78,7 +78,7 @@ export default {
           "title": "Movie Night",
           "date": "17/10/2024",
           "location": "LTL",
-          "status" : "Upcoming",
+          "status" : "Ongoing",
           "time": "18:00 - 21:00"
         },
       ]
